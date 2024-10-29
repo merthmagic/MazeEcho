@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeEcho.WebApi", "MazeEcho.WebApi\MazeEcho.WebApi.csproj", "{95E22271-512F-4DDB-B840-24B9A3466057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeEcho.Interfaces", "MazeEcho.Interfaces\MazeEcho.Interfaces.csproj", "{DE72FF04-FED1-45E7-81B4-8B9A2BA0ED16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeEcho.Grains", "MazeEcho.Grains\MazeEcho.Grains.csproj", "{31615DB7-F5B5-4415-9EE3-C9E615F953E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeEcho.Silo", "MazeEcho.Silo\MazeEcho.Silo.csproj", "{B43CEFBC-FDD9-4ACC-9CE2-318CCB3035F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E22271-512F-4DDB-B840-24B9A3466057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E22271-512F-4DDB-B840-24B9A3466057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E22271-512F-4DDB-B840-24B9A3466057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E22271-512F-4DDB-B840-24B9A3466057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE72FF04-FED1-45E7-81B4-8B9A2BA0ED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE72FF04-FED1-45E7-81B4-8B9A2BA0ED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE72FF04-FED1-45E7-81B4-8B9A2BA0ED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE72FF04-FED1-45E7-81B4-8B9A2BA0ED16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31615DB7-F5B5-4415-9EE3-C9E615F953E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31615DB7-F5B5-4415-9EE3-C9E615F953E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31615DB7-F5B5-4415-9EE3-C9E615F953E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31615DB7-F5B5-4415-9EE3-C9E615F953E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43CEFBC-FDD9-4ACC-9CE2-318CCB3035F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43CEFBC-FDD9-4ACC-9CE2-318CCB3035F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43CEFBC-FDD9-4ACC-9CE2-318CCB3035F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43CEFBC-FDD9-4ACC-9CE2-318CCB3035F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
