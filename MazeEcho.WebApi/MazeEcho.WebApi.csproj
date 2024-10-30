@@ -9,12 +9,17 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10"/>
         <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="8.2.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\MazeEcho.Interfaces\MazeEcho.Interfaces.csproj" />
       <ProjectReference Include="..\MazeEcho.Silo\MazeEcho.Silo.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>
