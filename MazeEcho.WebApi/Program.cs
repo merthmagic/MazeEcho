@@ -49,5 +49,13 @@ app.MapGet("/shorten", async (IGrainFactory grains, HttpRequest request, string 
     return Results.Ok(resultBuilder.Uri);
 });
 
+app.MapGet("/go/{shortenedRouteSegment:required}", async (IGrainFactory grains, string shortenedRouteSegment) =>
+{
+    var shortenerGrain =
+        grains.GetGrain<IUrlShortenerGrain>(shortenedRouteSegment);
+    var url = await shortenerGrain.GetUrl();
+    var redirectBuilder = new UriBuilder(url);
+    return Results.Redirect(redirectBuilder.Uri.ToString());
+});
 
 app.Run();
